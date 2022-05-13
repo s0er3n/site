@@ -9,7 +9,10 @@ const config = {
   preprocess: preprocess(),
 
   kit: {
-    adapter: adapter()
+    paths: {
+      // change below to your repo name
+      base: "/site",
+    }, adapter: adapter()
   }
 };
 
